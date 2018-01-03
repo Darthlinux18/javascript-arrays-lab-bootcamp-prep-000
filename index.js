@@ -22,7 +22,7 @@ function destructivelyRemoveFirstKitten () {
 }
 
 function appendKitten (element) {
-  return [...kittens, "Broom"]
+  return [...kittens, element]
 }
 
 function prependKitten (element) {
