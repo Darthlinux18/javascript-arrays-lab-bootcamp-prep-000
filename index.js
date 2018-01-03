@@ -28,3 +28,8 @@ function appendKitten (element) {
 function prependKitten (element) {
   return [element, ...kittens]
 }
+
+function removeLastKitten () {
+  var newArray = kittens.slice(kittens.length(-1));
+  return newArray
+}
